@@ -1,7 +1,7 @@
 {
-  "name": "Ezer Coach | AI Educator",
+  "name": "에제르코치 이재열 | AI·SW 교육",
   "short_name": "Ezer Coach",
-  "description": "AI와 코딩을 쉽고 재미있게 연결하는 교육 전문가 프로필",
+  "description": "어렵게 느껴지는 기술을, 끝까지 해낼 수 있는 배움으로.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#fffdf9",

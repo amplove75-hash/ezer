@@ -44,7 +44,7 @@ themeToggle.addEventListener('click', () => {
 });
 
 $('#copyBtn').addEventListener('click', async () => {
-  const text = `Ezer Coach (이재열)\nAI Educator · 에제르 멘토링\n전화: 010-4752-5112\n이메일: amplove@naver.com\n프로필: https://zrr.kr/lHVT6r`;
+  const text = `이재열 (에제르코치)\nAI·SW 교육 · 에제르코칭\n전화: 010-4752-5112\n이메일: amplove@naver.com\n프로필: https://zrr.kr/lHVT6r`;
   try {
     await navigator.clipboard.writeText(text);
     showToast('연락처를 복사했어요.');
@@ -55,8 +55,8 @@ $('#copyBtn').addEventListener('click', async () => {
 
 $('#shareBtn').addEventListener('click', async () => {
   const data = {
-    title: 'Ezer Coach | AI Educator',
-    text: 'AI와 코딩을 쉽고 재미있게 연결하는 교육 전문가 Ezer Coach입니다.',
+    title: '에제르코치 이재열 | AI·SW 교육',
+    text: '어렵게 느껴지는 기술을, 끝까지 해낼 수 있는 배움으로. 에제르코치 이재열입니다.',
     url: location.href
   };
   try {
