@@ -44,7 +44,7 @@ themeToggle.addEventListener('click', () => {
 });
 
 $('#copyBtn').addEventListener('click', async () => {
-  const text = `이재열 (에제르코치)\nAI·SW 교육 · 에제르코칭\n전화: 010-4752-5112\n이메일: amplove@naver.com\n프로필: https://zrr.kr/lHVT6r`;
+  const text = `이재열 (에제르코치)\nAI·SW 교육 · 에제르코칭\n전화: 010-4752-5112\n이메일: amplove@naver.com\n프로필: https://iridescent-dragonfly-538.notion.site/SW-AI-fe000a4f6fcc44cfa7c565852923329e`;
   try {
     await navigator.clipboard.writeText(text);
     showToast('연락처를 복사했어요.');
